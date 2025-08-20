@@ -9,12 +9,6 @@ In this study, we analyzed bulk RNA-seq data from mouse melanoma cells to invest
 The goal was to determine whether FOXC2 deletion alters key processes such as interferon signaling and immune response, contributing to the tumor’s ability to evade immune surveillance.
 
 
-## Project Structure
-
-1. download_and_trim.sh (Download, decompress, and trim FASTQ files)
-2. kallisto_quant.sh (Transcript quantification with Kallisto)
-3. rnaseq_analysis.R (R script for normalization, DE analysis, PCA, clustering, GO enrichment)
-
 
 ## Dataset Summary
 
