@@ -11,12 +11,10 @@ The goal was to determine whether FOXC2 deletion alters key processes such as in
 
 ## Project Structure
 
-├── 1_download_and_trim.sh # Download, decompress, and trim FASTQ files
-├── 2_kallisto_quant.sh # Transcript quantification with Kallisto
-├── 3_rnaseq_analysis.R # R script for normalization, DE analysis, PCA, clustering, GO enrichment
-├── samples.csv # Sample-to-condition mapping
-├── data/ # Raw, trimmed, and quantified sequencing data
-├── last_sec_results/ # Analysis outputs: plots, DEG tables, enrichment results
+1. download_and_trim.sh # Download, decompress, and trim FASTQ files
+2. kallisto_quant.sh # Transcript quantification with Kallisto
+3. rnaseq_analysis.R # R script for normalization, DE analysis, PCA, clustering, GO enrichment
+
 
 ## Dataset Summary
 
@@ -60,12 +58,12 @@ The goal was to determine whether FOXC2 deletion alters key processes such as in
 
 ## Output Files
 
-+ - `voom_plot.png`: Mean-variance plot from voom transformation
-+ - `volcano_plot.png`: Volcano plot of log fold change vs. significance
-+ - `pca_plot.png`: Principal component analysis plot
-+ - `hierarchical_clustering.png`: Clustering dendrogram
-+ - `GO_upregulated.csv`, `GO_downregulated.csv`: GO enrichment results
-+ - `go_enrichment_upregulated.png`, `go_enrichment_downregulated.png`: Barplots
++  `voom_plot.png`: Mean-variance plot from voom transformation
++  `volcano_plot.png`: Volcano plot of log fold change vs. significance
++  `pca_plot.png`: Principal component analysis plot
++  `hierarchical_clustering.png`: Clustering dendrogram
++  `GO_upregulated.csv`, `GO_downregulated.csv`: GO enrichment results
++  `go_enrichment_upregulated.png`, `go_enrichment_downregulated.png`: Barplots
 
 ## Results
 
