@@ -11,9 +11,9 @@ The goal was to determine whether FOXC2 deletion alters key processes such as in
 
 ## Project Structure
 
-1. download_and_trim.sh # Download, decompress, and trim FASTQ files
-2. kallisto_quant.sh # Transcript quantification with Kallisto
-3. rnaseq_analysis.R # R script for normalization, DE analysis, PCA, clustering, GO enrichment
+1. download_and_trim.sh (Download, decompress, and trim FASTQ files)
+2. kallisto_quant.sh (Transcript quantification with Kallisto)
+3. rnaseq_analysis.R (R script for normalization, DE analysis, PCA, clustering, GO enrichment)
 
 
 ## Dataset Summary
@@ -46,15 +46,15 @@ The goal was to determine whether FOXC2 deletion alters key processes such as in
 
 1. Download, decompress, and trim reads:
 
-1_download_and_trim.sh
+`1_download_and_trim.sh`
 
 2. Run Kallisto quantification:
 
-2_kallisto_quant.sh
+`2_kallisto_quant.sh`
 
 3. Perform differential expression and enrichment analysis in R:
 
-3_rnaseq_analysis.R
+`3_rnaseq_analysis.R`
 
 ## Output Files
 
